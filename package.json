@@ -1,0 +1,67 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "Eda",
+  "proxy": "https://nandwsouk.com",
+  "keywords": [
+    "react",
+    "starter"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "@brainhubeu/react-carousel": "^1.16.0",
+    "@material-ui/core": "^4.9.10",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.49",
+    "autosuggest-highlight": "^3.1.1",
+    "axios": "0.19.2",
+    "classnames": "^2.2.6",
+    "google-maps-api-loader": "^1.1.1",
+    "intl-messageformat-parser": "^6.0.3",
+    "jss-rtl": "^0.3.0",
+    "jwt-decode": "^2.2.0",
+    "lodash": "^4.17.20",
+    "react": "16.13.1",
+    "react-app-polyfill": "^1.0.6",
+    "react-confirm-alert": "^2.7.0",
+    "react-dom": "16.13.1",
+    "react-geocode": "^0.2.3",
+    "react-hook-form": "^6.14.2",
+    "react-hook-google-maps": "0.0.3",
+    "react-html-parser": "^2.0.2",
+    "react-intl": "^4.3.1",
+    "react-location-picker": "^1.5.0",
+    "react-meta-tags": "^0.7.4",
+    "react-multi-carousel": "^2.6.1",
+    "react-redux": "7.2.0",
+    "react-router-dom": "5.1.2",
+    "react-scripts": "3.4.1",
+    "react-search-autocomplete": "^5.0.2",
+    "redux": "4.0.5",
+    "redux-thunk": "2.3.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "babel-plugin-import": "^1.13.0",
+    "customize-cra": "^1.0.0",
+    "react-app-rewired": "^2.1.6",
+    "tailwindcss": "^1.2.0",
+    "tailwindcss-dir": "^4.0.0",
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "npm run tailwind && react-app-rewired start",
+    "build": "npm run tailwind && react-scripts build",
+    "tailwind": "./node_modules/.bin/tailwind build ./src/styles/index.css -o ./src/styles/tailwind.css",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
